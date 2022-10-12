@@ -7,7 +7,7 @@
         float:left; 
         width: 35%;
     background: #2A2982;
-        height:100vh;
+        height:110vh;
 
     }
     
@@ -15,7 +15,7 @@
     float: right;
         width: 65%;
         background:lightgray;
-        height: 100vh;
+        height: 110vh;
     }
 
  h1 {
@@ -32,9 +32,27 @@
  .titulo {
     border: black 2px solid;
     width: 300px ;
+    display:inline-block;
     margin-left: 10px ;
     border-radius: 40px;
     color: white;
     background-color: #2A2982;
-
  }
+
+ .iconos {
+    display:flex;
+    justify-content: space-around;
+ }
+
+ .tabla {
+    display: flex;
+    justify-content: center;
+ }
+
+.titulo2 {
+    padding-bottom: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    display:inline-block
+}
+ 
